@@ -152,9 +152,9 @@ print_message "🎉 Despliegue exitoso. Contenedor corriendo en http://localhost
 ```
  
 ## Principios DevOps Aplicados
-1. [Principio 1]
-2. [Principio 2]
-3. [Principio 3]
+1. Cultura de colaboración: por medio de la documentación de todo se promueve el desarrollo en equipo.
+2. DevSecOps: Aumento de la seguridad por medio de la creación de usuario con permisos definidos dentro del contenedor.
+3. Automatización: se automatiza el levantamiento del contenedor por medio de scripts, pudiendo modificar por medio de un parametro el puerto en el que opera.
 
 ## Captura de Pantalla
 [Incluye al menos una captura de pantalla que muestre tu aplicación funcionando en el contenedor]
@@ -175,6 +175,9 @@ Se comprueba que se procese correctamente una solicitud con `curl -i http://loca
 
 ![image](https://github.com/user-attachments/assets/e97401ab-c2dd-4d37-b4c6-5788e96080ea)
 
+Se comprueba la ejecución del script corriendo en el puerto 8080:
+
+![image](https://github.com/user-attachments/assets/30dcbf91-d0e4-4858-b869-712de962b7c1)
 
 ## Mejoras Futuras
 [Describe al menos 3 mejoras que podrían implementarse en el futuro]
