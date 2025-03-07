@@ -10,7 +10,7 @@
 ## Resumen de la Solución
 [Breve descripción de tu implementación]
 
-
+Se optimiza la creación de un dockfile y se automatiza sue ejecución con un script, asegurando buen manejo de cache, tamaño y seguridad.
 
 ## Dockerfile
 [Explica las decisiones tomadas en la creación del Dockerfile]
