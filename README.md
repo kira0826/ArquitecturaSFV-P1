@@ -1,4 +1,4 @@
-# ArquitecturaSFV-P1
+![image](https://github.com/user-attachments/assets/a8f6d072-e1ac-4c7a-be45-296aad5acc85)# ArquitecturaSFV-P1
 
 # Evaluación Práctica - Ingeniería de Software V
 
@@ -45,6 +45,9 @@ Se ingrsea al contenedor con docker `exec -it parcial sh`
 
 ![image](https://github.com/user-attachments/assets/b1d3e271-b06f-43fb-9ac1-44e5e8af8fde)
 
+Se comprueba que se procese correctamente una solicitud con `curl -i http://localhost:3000/health`
+
+![image](https://github.com/user-attachments/assets/e97401ab-c2dd-4d37-b4c6-5788e96080ea)
 
 
 ## Mejoras Futuras
