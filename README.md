@@ -19,6 +19,10 @@ Se tiene solo los files minimos necesarios para que la app corra:
 
 ![image](https://github.com/user-attachments/assets/cc0a617f-3a2f-4a8c-bf69-53a52cb51113)
 
+Comprobación de funcionamiento del endpoint:
+
+![image](https://github.com/user-attachments/assets/9c728f1a-4812-46c0-854e-1a49ff154a5f)
+
 ## Dockerfile
 [Explica las decisiones tomadas en la creación del Dockerfile]
 
