@@ -1,4 +1,4 @@
-# ArquitecturaSFV-P1
+![image](https://github.com/user-attachments/assets/f083a9ec-5d99-41f2-af2c-f7034541d04d)# ArquitecturaSFV-P1
 
 # Evaluación Práctica - Ingeniería de Software V
 
@@ -9,6 +9,15 @@
 
 ## Resumen de la Solución
 [Breve descripción de tu implementación]
+
+
+Se comprueba el tamaño optimizado de la imagen:
+
+![image](https://github.com/user-attachments/assets/b5c4f9e1-b687-422e-9c68-8b3bd8032b00)
+
+Se tiene solo los files minimos necesarios para que la app corra: 
+
+![image](https://github.com/user-attachments/assets/cc0a617f-3a2f-4a8c-bf69-53a52cb51113)
 
 ## Dockerfile
 [Explica las decisiones tomadas en la creación del Dockerfile]
@@ -24,8 +33,27 @@
 ## Captura de Pantalla
 [Incluye al menos una captura de pantalla que muestre tu aplicación funcionando en el contenedor]
 
+Se comprueba la construcción de la imagen: 
+
+![image](https://github.com/user-attachments/assets/f5148129-518c-459d-855c-cbc68118def7)
+
+Se comprueba que se esté ejecutando el contenedor con `docker ps`
+
+![image](https://github.com/user-attachments/assets/434da5a9-2deb-45e7-94bb-0fb6e489ba9d)
+
+Se ingrsea al contenedor con docker `exec -it parcial sh`
+
+![image](https://github.com/user-attachments/assets/b1d3e271-b06f-43fb-9ac1-44e5e8af8fde)
+
+
+
 ## Mejoras Futuras
 [Describe al menos 3 mejoras que podrían implementarse en el futuro]
 
+1. Implementar un web server más robusto como Nginx para el manejo de peticiones por medio del patron master slave,  y el uso del proxy inverso para aprovechar el DNS propio de docker.
+2. Utilizar un sistema más robusto y seguro para el menajeo de variables de entorno, pensando en la incorporación de variables sensibles, usar azure vault o secrets.
+3. En vez de dejar el usuario Root dentro del contenedor por defecto,  crear un usuario con permisos bien definidos para evitar que se vulenere el contenedor y quien lo vulnere tenga permisos totales.
+
 ## Instrucciones para Ejecutar
+
 [Instrucciones paso a paso para ejecutar tu solución]
