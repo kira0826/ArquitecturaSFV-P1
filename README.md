@@ -3,9 +3,9 @@
 # Evaluación Práctica - Ingeniería de Software V
 
 ## Información del Estudiante
-- **Nombre:**
-- **Código:**
-- **Fecha:**
+- **Nombre:** Kevin Steven Nieto Curaca
+- **Código:** A00395466
+- **Fecha:** Marzo 7 2025
 
 ## Resumen de la Solución
 [Breve descripción de tu implementación]
