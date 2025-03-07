@@ -1,0 +1,22 @@
+# Ignorar node_modules y dependencias locales
+node_modules
+npm-debug.log
+yarn-error.log
+
+
+.env.local
+.DS_Store
+
+# Ignorar caché y archivos generados
+*.log
+coverage
+*.swp
+
+# Ignorar archivos de Git
+.git
+.gitignore
+
+# Ignorar Docker y configuraciones específicas del IDE
+docker-compose.yml
+.vscode
+.idea
