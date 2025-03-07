@@ -10,6 +10,8 @@
 ## Resumen de la Solución
 [Breve descripción de tu implementación]
 
+Para la construcción del dockerfile tuve en cuenta tanto la optimización del sistema de cache por capas de docker, y la optimización del tamaño de la imagen. Para la cache, identifiqué entonces lo más suceptible a ser cambiado en mi código para ser colocado en una capa baja y elegí los files suficientes para que el proyecto corra, apoyado esta ultima parte de un `.dockerignore` para evitar ciertos files. 
+
 
 Se comprueba el tamaño optimizado de la imagen:
 
