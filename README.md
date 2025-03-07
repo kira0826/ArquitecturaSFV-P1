@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f083a9ec-5d99-41f2-af2c-f7034541d04d)# ArquitecturaSFV-P1
+# ArquitecturaSFV-P1
 
 # Evaluación Práctica - Ingeniería de Software V
 
