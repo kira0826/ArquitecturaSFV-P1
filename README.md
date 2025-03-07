@@ -188,4 +188,8 @@ Se comprueba la ejecución del script corriendo en el puerto 8080:
 
 ## Instrucciones para Ejecutar
 
-[Instrucciones paso a paso para ejecutar tu solución]
+1. Dar permisos de ejecución al script executor.sh
+2. Ejecutar el script, cabe recalcar que puedes definir el puerto pasandolo como parametro:
+
+![image](https://github.com/user-attachments/assets/d7c52f8a-e96a-4868-8919-f0626a7ec0a7)
+
